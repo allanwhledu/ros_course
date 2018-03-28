@@ -23,7 +23,7 @@ enum ControlEnum
 //объект издатель команд управления
 ros::Publisher cmd_pub;
 //указатель на текущий алгоритм управления
-Control* controlPtr(nullptr);
+Control* controlPtr(NULL);
 
 //массив указателей на доступные алгоритмы из которых мы можем выбрать
 Control* controls[nControls];
